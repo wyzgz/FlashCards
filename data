@@ -1,0 +1,33 @@
+
+const decks  = {
+  'deckID1':{
+    id: 'deckID1',
+    title:'Test 1',
+    timestamp: 1467166872634,
+    questions:[
+      {
+        question:'what is react JS?',
+        answer:' A library for managing user interfaces'
+      },
+      {
+        question:' Where do you make Ajax requets in React?',
+        answer:'The componentDidMount lifecycle event'
+      }
+    ]
+  },
+  'deckID2':{
+    id:'deckID2',
+    title:'Test 2',
+    timestamp: 1468166872834,
+    questions:[
+      {
+        question:'what is a closure',
+        answer:' The combination of a function and the lexical env within that function was declared!'
+      },
+      {
+        question:' What happens when you call setState?',
+        answer:'merge the object you passed into setState into the current state of the component'
+      }
+    ]
+  }
+}
